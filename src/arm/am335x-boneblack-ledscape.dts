@@ -46,6 +46,7 @@
 };
 
 #include "am33xx-pruss-uio.dtsi"
+#include "am335x-bone-pru0output.dtsi"
 
 //#include "am335x-peripheral-can0.dtsi"
 //#include "am335x-bone-pinmux-can0.dtsi"

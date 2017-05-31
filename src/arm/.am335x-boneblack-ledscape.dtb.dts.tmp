@@ -1509,3 +1509,36 @@
  };
 };
 # 49 "src/arm/am335x-boneblack-ledscape.dts" 2
+# 1 "src/arm/am335x-bone-pru0output.dtsi" 1
+# 9 "src/arm/am335x-bone-pru0output.dtsi"
+# 1 "include/dt-bindings/board/am335x-bbw-bbb-base.h" 1
+# 10 "src/arm/am335x-bone-pru0output.dtsi" 2
+
+
+
+ &ocp {
+  PRU0_output: ocp_pru0_output {
+  compatible = "bone-pinmux-helper";
+  pinctrl-names = "default";
+  status = "okay";
+  pinctrl-0 = <&pru0_pins>;
+ };
+ };
+
+
+
+&am33xx_pinmux {
+ pru0_pins: pinmux_pru0_pins {
+  pinctrl-single,pins = <
+   0x190 (0 | 5)
+   0x194 (0 | 5)
+   0x198 (0 | 5)
+   0x19C (0 | 5)
+
+   0x164 (((1 << 5) | (1 << 3)) | 7)
+   0x1A0 (0 | 5)
+   0x1A4 (0 | 5)
+  >;
+ };
+};
+# 50 "src/arm/am335x-boneblack-ledscape.dts" 2
