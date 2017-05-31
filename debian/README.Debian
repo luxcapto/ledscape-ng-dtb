@@ -1,0 +1,6 @@
+ledscape-ng-bbb-r30-dtb for Debian
+----------------------------------
+
+Device tree binary package to enable the uio_pruss driver and allow output via PRU0 register 30 on the BeagleBone Black. This is necessary to run the *-r30 output modes in LEDscape.
+
+ -- Nash Kaminski <pi@arm-builder.home>  Tue, 30 May 2017 22:05:20 -0500
