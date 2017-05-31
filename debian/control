@@ -9,5 +9,5 @@ Standards-Version: 3.9.5
 
 Package: ledscape-ng-bbb-r30-dtb
 Architecture: armhf
-Depends: ${shlibs:Depends}, ${misc:Depends}, ledscape-ng
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: BeagleBone Black PRU0 r30 output and uio_pruss enabling DTB for ledscape 
