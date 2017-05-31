@@ -1,6 +1,0 @@
-am335x-boneblack-ledscape.o: src/arm/am335x-boneblack-ledscape.dts \
- src/arm/am33xx.dtsi include/dt-bindings/gpio/gpio.h \
- include/dt-bindings/pinctrl/am33xx.h include/dt-bindings/pinctrl/omap.h \
- src/arm/skeleton.dtsi src/arm/am335x-bone-common-no-capemgr.dtsi \
- src/arm/am33xx-pruss-uio.dtsi src/arm/am335x-bone-pru0output.dtsi \
- include/dt-bindings/board/am335x-bbw-bbb-base.h
